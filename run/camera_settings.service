@@ -1,0 +1,21 @@
+[Unit]
+Description=5MP Camera Settings Service
+After=multi-user.target
+
+[Service]
+Type=simple
+PrivateDevices=true
+ProtectControlGroups=true
+ProtectKernelTunables=true
+ProtectSystem=full
+# Change User and Group to your user and group.
+User=patrick
+Group=patrick
+# Change the path from /home/patrick to your username in the following 2 places.
+WorkingDirectory=/home/patrick/camera_settings
+ExecStart=/home/patrick/camera_settings/camera_settings --daemon --pidfile camera_settings.pid
+ExecStop=/usr/bin/pkill --pidfile camera_settings.pid
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
