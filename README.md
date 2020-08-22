@@ -6,7 +6,7 @@ are adjusted using a mobile-responsive web page and then passed via JavaScript a
 written in C++ and then picked-up again by the camera. The settings themselves are described below in Interface 
 Definition Language (IDL). 
 
-![image browsing page](images/image_browsing.jpg) 
+![image browsing page](images/camera_settings.jpg) 
 
 Interface Definition Language (IDL) for Motion Camera Settings
 --------------------------------------------------------------
