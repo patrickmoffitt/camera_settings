@@ -55,11 +55,11 @@ Building
 --------
 1. Install libpoco on Raspbian Buster
    ```bash
-   sudo apt-get install libpoco-dev libpoco-doc libpocofoundation60 \
-   libpocojson60 libpoconet60 libpococrypto60 libpocodata60 \
-   libpocodatamysql60 libpocodataodbc60 libpocodatasqlite60 \
-   libpocoencodings60 libpocomongodb60 libpoconetssl60 libpocoredis60 \
-   libpocoutil60 libpocoxml60 libpocozip60
+   sudo apt install libpoco-dev libpoco-doc libpocofoundation62 \
+   libpocojson62 libpoconet62 libpococrypto62 libpocodata62 \
+   libpocodatamysql62 libpocodataodbc62 libpocodatasqlite62 \
+   libpocoencodings62 libpocomongodb62 libpoconetssl62 libpocoredis62 \
+   libpocoutil62 libpocoxml62 libpocozip62
    
    ```
 2. Run `cmake` in the usual way in the project root folder.
