@@ -53,7 +53,7 @@ case-sensitive operating system.
 
 Building
 --------
-1. Install libpoco on Raspbian Buster
+1. Install libpoco on Ubuntu 20.04 (Focal Fossa)
    ```bash
    sudo apt install libpoco-dev libpoco-doc libpocofoundation62 \
    libpocojson62 libpoconet62 libpococrypto62 libpocodata62 \
